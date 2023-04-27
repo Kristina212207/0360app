@@ -4,7 +4,6 @@ export const Profile = (props) => {
   let userId = location.pathname.split("/")[2];
 	let user = props.function(userId);
 
-  // console.log(userId);
   return (
     <div className="row">
       <div className="col-sm-4">

@@ -26,12 +26,18 @@ function App(props) {
           </div>
         </div>
         <div className="col-md-9">
-        <Routes>
-						<Route path="/profile/*" element={<Profile function={props.functions.key_getUser} />} />
-						<Route path="/messages" element={<Messages />} />
-						<Route path="/settings" element={<Settings />} />
-						<Route path="/friends" element={<Friends function={props.functions.key_getUsers} />} />
-					</Routes>
+          <Routes>
+            <Route
+              path="/profile/*"
+              element={<Profile function={props.functions.key_getUser} />}
+            />
+            <Route path="/messages" element={<Messages />} />
+            <Route path="/settings" element={<Settings />} />
+            <Route
+              path="/friends"
+              element={<Friends function={props.functions.key_getUsers} />}
+            />
+          </Routes>
         </div>
       </div>
     </div>
