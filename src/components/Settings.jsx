@@ -1,6 +1,6 @@
 const products = [
   {
-    id: 3,
+    id: 1,
     name: "Рубашка спортивная",
     href: "#",
     imageSrc:
@@ -10,7 +10,7 @@ const products = [
     color: "Gray",
   },
   {
-    id: 1,
+    id: 2,
     name: "Футболка отличная",
     href: "#",
     imageSrc:
@@ -20,7 +20,7 @@ const products = [
     color: "Black",
   },
   {
-    id: 2,
+    id: 3,
     name: "Футболка белая",
     href: "#",
     imageSrc:
@@ -67,7 +67,7 @@ export function Settings() {
                       {product.name}
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">{product.color}</p>
+                  <p className="mt-1 text-sm text-gray-600">{product.color}</p>
                 </div>
                 <p className="text-sm font-medium text-gray-900">
                   {product.price}
